@@ -58,3 +58,36 @@ table tr td{
 table {
     margin: 0 auto; /* centraliza a tabela na página */
 }
+.laranja {
+    background-color: orange;
+}
+.letravermelha {
+    color: red;
+}
+.preta {
+    background-color: black;
+    color: white;
+}
+.roxa {
+    background-color: purple;
+}
+.verde {
+    background-color: green;
+}
+.vermelha {
+    background-color: red;
+}
+.cabecalho {
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+.subtxt {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8px;
+}
+.endereco {
+    border: black;
+    border-style: groove;
+    padding: 10px;
+}
