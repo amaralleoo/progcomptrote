@@ -82,15 +82,6 @@ table {
     color: white;
     text-align: center;
 }
-.subtxt {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 8px;
-}
-.endereco {
-    border: black;
-    border-style: groove;
-    padding: 10px;
-}
 .divcal {
     margin-bottom: 20px;
 }
