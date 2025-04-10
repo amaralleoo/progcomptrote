@@ -30,6 +30,16 @@
             <h2> Calculadoras </h2>
             <form>
                 <div class="divcal">
+                    <label>Selecione a cor da equipe</label>
+                    <select id="equipe">
+                        <option value="Laranja">Laranja</option>
+                        <option value="Preta">Preta</option>
+                        <option value="Roxa">Roxa</option>
+                        <option value="Verde">Verde</option>
+                        <option value="Vermelha">Vermelha</option>
+                    </select>
+                </div>
+                <div class="divcal">
                     <label> Mascote do time </label>
                     <input type="number" id="mascote"/>
                 </div>
@@ -43,11 +53,15 @@
                 </div>  
                 <div class="divcal">
                     <label>Kit alimentação avulso </label>
-                    <input type="number" id="kitAvulso"/>
+                    <input type="number" id="kit"/>
                 </div>
                 <div class="divcal">
                     <label> Suplemento avulso </label>
-                    <input type="number" id="suplementoAvulso"/>
+                    <input type="number" id="suplemento"/>
+                </div>
+                <div class="divcal">
+                    <label> Doação de Sangue </label>
+                    <input type="number" id="Sangue"/>
                 </div>
                 <div class="divcal">
                     <button type="button" onclick="calcular()"> Calcular </button>
